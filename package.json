@@ -1,0 +1,32 @@
+{
+  "name": "linkerflix-website",
+  "version": "1.0.0",
+  "description": "Public website for linkerflix",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint .",
+    "build": "rimraf dist && eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmammino/linkerflix-website.git"
+  },
+  "keywords": [],
+  "author": "Luciano Mammino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lmammino/linkerflix-website/issues"
+  },
+  "homepage": "https://github.com/lmammino/linkerflix-website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
