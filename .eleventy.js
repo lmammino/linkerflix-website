@@ -1,8 +1,11 @@
 'use strict'
 
-module.exports = {
-  dir: {
-    input: 'src',
-    output: 'dist'
+module.exports = function (config) {
+  config.addPassthroughCopy({ 'src/_includes/assets': 'assets' })
+  return {
+    dir: {
+      input: 'src',
+      output: 'dist'
+    }
   }
 }

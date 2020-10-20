@@ -1,0 +1,22 @@
+---
+title: Linkerflix
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}</title>
+    {% for asset in webpack.css %}
+      <link rel="stylesheet" href="{{ asset }}">
+    {% endfor %}
+  </head>
+
+  <body>
+    {{ content | safe }}
+    {% for asset in webpack.js %}
+      <script src="{{ asset }}" async></script>
+    {% endfor %}
+  </body>
+</html>

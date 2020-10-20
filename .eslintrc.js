@@ -15,5 +15,10 @@ module.exports = {
   },
   rules: {
   },
-  ignorePatterns: ['!.eleventy.js']
+  ignorePatterns: [
+    '!.eleventy.js',
+    'src/_includes/assets',
+    'dist/',
+    'node_modules/'
+  ]
 }
