@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://linkerflix-website/./src/js/index.js"],"names":["console","log"],"mappings":"mBAIAA,QAAQC,IAAI,gB","file":"main.b293e0535ef47c481ce5.js","sourcesContent":["'use strict'\n\nimport '../css/style.css'\n\nconsole.log('It\\'s alive!')\n"],"sourceRoot":""}
